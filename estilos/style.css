@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: aqua;
+  width: 100%;
+  height: 615px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .mainCenter {
+  background-color: aliceblue;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+main .mainCenter .calculatorBorder {
+  margin-top: 60px;
+  background-color: rgb(231, 231, 64);
+  width: 80%;
+  height: 70%;
+  border-radius: 10px;
+}
+main .mainCenter .calculatorBorder .pantalla {
+  background-color: aqua;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .mainCenter .calculatorBorder .pantalla input {
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 2px 2px 0px black;
+  height: 80%;
+  width: 90%;
+}
+main .mainCenter .calculatorBorder .operadores {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12%;
+  background-color: aquamarine;
+}
+main .mainCenter .calculatorBorder .operadores button {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 2px 2px 0px black;
+  width: 15%;
+  height: 60%;
+  transition: all 0.2s;
+}
+main .mainCenter .calculatorBorder .operadores button:active {
+  box-shadow: none;
+  background-color: azure;
+}
+main .mainCenter .calculatorBorder .numeros {
+  background-color: bisque;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 76%;
+}
+main .mainCenter .calculatorBorder .numeros button {
+  height: 10%;
+  width: 10%;
+}/*# sourceMappingURL=style.css.map */
