@@ -34,6 +34,7 @@ main .mainCenter .calculatorBorder .pantalla {
   align-items: center;
 }
 main .mainCenter .calculatorBorder .pantalla input {
+  text-align: end;
   border-radius: 5px;
   border: none;
   box-shadow: 0px 0px 2px 1px black;
